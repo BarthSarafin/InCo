@@ -12,7 +12,7 @@ public class Fibonacci {
         if(n < 0) System.out.println("Fibonacci Number does not exist!");
 
         for( int k = 0; k <= n; k++) {
-            System.out.println(k + ": " + Fibonacci_9.fib(n));
+            System.out.println(k + ": " + Fibonacci_9.fib(k));
         }
     }
 }
